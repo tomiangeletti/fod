@@ -54,7 +54,6 @@ type
     archivo = file of libro;
 var
     arc : archivo;
-    reg : libro;
     cab : libro;
 
 procedure crearArchivo(var arch: archivo);
